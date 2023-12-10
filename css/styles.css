@@ -197,3 +197,24 @@ p
     color: rgb(29, 8, 148);
     font-size: 16px;
 }
+ @media(max-width: 1000px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .interest ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@meida (max-width:600px){
+    .about .box{
+        flex-direction: column;
+    }
+    .about .box .year_company{
+        margin-bottom: 5px;
+    }
+    .interest ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+} 
