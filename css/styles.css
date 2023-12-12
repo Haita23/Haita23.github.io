@@ -228,6 +228,19 @@ left: 00;
 height: 100%;
 background: rgb(8, 127, 148);
 }
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.interest ul li 
+{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+
  @media(max-width: 1000px){
     .container{
         margin: 10px;
